@@ -1,0 +1,17 @@
+QM-fitted Amoeba
+Free energy simulations using an Amoeba polarizable force field especially fitted to QM calculations for the particular system
+
+
+The procedure follows closely the submission "Amoeba", except for one additional step. Instead of relying on van der Waals parameter from a library chosen by analyzing atom types, we performed a fit where each atom on each solute molecule could have its own radius. The reference data for the fit consisted of 500 QM calculations of solute-water interactions for the particular solute in question. A reasonably high level of QM calculations, MP2/6-311++G(2d,2p), was used and full counterpoise correction was applied.
+
+The structures were obtained in the following way. First, a standard Amoeba simulation was run for the solute-water system. In a post-processing step, solute-water dimers with distance less than 5 Å was collected and the dimers were clustered using the gromacs tool g_cluster (option gromos). The centers of the 500 largest clusters were used as reference dimers, each having a weight proportional to the cluster size.
+
+In the fitting, all parameters except the vdw radii were kept fixed (including multipoles, and vdw well depths). A restraint was applied to keep the fitted parameters reasonably close (typically within a factor of two) to the original parameters.
+
+Finally, the free energy was computed by a series of free energy simulations using the new parameters, as in the "Amoeba" submission
+
+Unfortunately, we discovered on some test molecules that we lost any closeness to experiment when we included the G_Vdw, so we concluded that these parameters are very tightly fitted to reproduce nonpolar hydration energies, so even though we obtain much better agreement with QM after the fitting, we lose the agreement with experiment if trying to perform the extremely parameter-sensitive annihilation of the molecule with the new parameters.
+
+Thus, in the reported results, we only modify the electrostatic part of the free energy but keep the Vdw part as determined by the standard Amoeba force field.
+
+Due to the huge computational cost of these calculations, we only managed to finish 11 of the molecules in time.

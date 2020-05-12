@@ -1,0 +1,1 @@
+Geometry optimized with GAMESS with 6-31G*. Two-stage resp fitted to 6-31G* ESP. Hydration free energies with FiSH. Most of the CPU time was spent on the QM calculation. The FiSH calculation takes seconds per compound.

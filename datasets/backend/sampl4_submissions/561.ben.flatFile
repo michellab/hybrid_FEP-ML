@@ -1,0 +1,15 @@
+RefNo: 561
+Username: ben
+Email: ben@eyesopen.com
+Anonymous: no
+Method: singleConf 3D implSolv
+Personhours: Less than 1 hour
+CPUhours: 1 second
+OS: Mac OS X
+Hardware: 2.66Ghz i7
+Predicted RMSE: 2
+Datafile: ../database/sampl4_xfer/561.ben.data
+Datafile Name: OmegaSzybkiAM1BCCZap9.data
+Methodfile: ../database/sampl4_xfer/561.ben.text
+Methodfile Name: OmegaSzybkiAM1BCCZap9.txt
+

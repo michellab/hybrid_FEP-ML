@@ -1,0 +1,25 @@
+The used methdod was COSMO-RS as implemented in COSMOtherm.
+The used parameterization is C21_0108, which has been used for other publications.
+No parameters have been changed or adjusted. COSMOtherm has been used out of the box.
+The computational time per compound is estimated and includeds a conformational search with DFT and COSMOconf.
+In fact most of the compounds and their conformers have been taken from our COSMObase.
+The COSMObase contains previously calculated results from our COSMOconf workflow.
+The other compounds have been calculated with our COSMOconf workflow, so that in the end all compound are made by COSMOconf, only for most we had done it some years ago.
+In addition I visually inspected the conformations.
+The computational time with COSMOtherm per compound is only a few seconds.
+
+The below comments have been added to the predictios.txt and are copied here so they are not overseen.
+# (1) The given statistical uncertainty is based on an assumption that different user might find different conformations and use them. It is an estimate according to our experience.
+#     The pure statistical uncertainty of COSMO-RS with identical conformations is about 1E-4 kcal/mol
+# (2) The model uncertainty is based on the general accuracy of our COSMO-RS (root mean square error = 0.5 kcal/mol), where certain compounds have been asigned a
+#      larger error according to our experience.
+#
+# Compound,Value,Exp Value (3),Reference
+# SAMPL4_042,-2.93,-3.12,unknown; internal data
+# SAMPL4_043,0.36,0.37,unknown; internal data
+# SAMPL4_044,-5.65,-5.05,unknown; internal data
+# SAMPL4_050,-3.64,-3.46,unknown; internal data
+#
+# (3) The given experimental values have been part of the parameterization C21_0108 from 2008. The parameterization C21_0108 is based on > 1300 experimental data points.
+#     Building a parameterization could be seen similar to building a force field. The values have not been considered further and no adjustments have been made.
+

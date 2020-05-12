@@ -1,0 +1,15 @@
+RefNo: 158
+Username: rgc
+Email: rgc@blur.compbio.ucsf.edu
+Anonymous: no
+Method: singleConf flexConf qm 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 seconds
+OS: Linux
+Hardware: mixed cluster, averaging 2.6 GHz cpus
+Predicted RMSE: 1.0
+Datafile: ../database/sampl4_xfer/158.rgc.data
+Datafile Name: sampl4_hydration_dock3.7_amsol.txt
+Methodfile: ../database/sampl4_xfer/158.rgc.text
+Methodfile Name: methods.txt
+

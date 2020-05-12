@@ -1,0 +1,15 @@
+RefNo: 153
+Username: kimasharp
+Email: sharpk@mail.med.upenn.edu
+Anonymous: no
+Method: qm 3D implSolv multConf md
+Personhours: 1 to 2 hours
+CPUhours: 10 minutes
+OS: Linux
+Hardware: 2.9ghz zeon quadcore
+Predicted RMSE: 3
+Datafile: ../database/sampl4_xfer/153.kimasharp.data
+Datafile Name: hyd_predictions_kas2.csv
+Methodfile: ../database/sampl4_xfer/153.kimasharp.text
+Methodfile Name: hydration_method_kas.txt
+

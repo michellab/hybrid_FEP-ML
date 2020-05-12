@@ -1,0 +1,11 @@
+H atoms added to compounds using 'hand built template' topology file and VMD
+Partial charges assigned using program Qequil, (Q. Yang, K.A. Sharp, 
+Atomic charge parameters for the finite difference Poisson-Boltzmann method 
+using electronegativity neutralization, J. Chem. Theory Comput., 2 (2006) 1152 - 1167)
+or Gaussian03- AM1 geometry optimization, followed by B3LYP/6-31G, 
+single point calculation, charges assigned using RESP or Mulliken charges
+'Real' topology files built using CHARMM like bonded parameters and partial charges
+100ps MD simulation using NAMD/GB solvent. 100 snapshots run through FDPB/SA 
+calculations, using a grid size of 193, scale of 2 grids per angstrom, solvent 
+dielectric 80, solute dielectric 2, surface area energy constant 0.005 cal/Asquared. 
+Boltzmann weighted average of solvation energy- electrostatic + surface area term.

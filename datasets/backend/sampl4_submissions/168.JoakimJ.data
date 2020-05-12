@@ -1,0 +1,57 @@
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted statistical uncertainty (kcal/mol), predicted model uncert
+#Here we distinguish between statistical uncertainty and model uncertainty, as one may (for example) do force-field based calculations which yield v
+#We anticipate scoring in at least two ways, one based on simple accuracy, and another based on uncertainty-weighted accuracy, where inaccurate resu
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+SAMPL4_001, -20.08   , 0.19    , 3 
+SAMPL4_002, -2.14   , 0.09     , 4 
+SAMPL4_003, -2.59   , 0.14     , 3 
+SAMPL4_004, -2.37   , 0.27     , 4 
+SAMPL4_005, -3.36   , 0.09     , 2 
+SAMPL4_006, -3.91   , 0.17     , 3 
+SAMPL4_007, -0.71   , 0.16     , 4 
+SAMPL4_008, -2.34   , 0.14     , 4 
+SAMPL4_009, -6.41   , 0.15     , 2 
+SAMPL4_010, -2.30   , 0.07     , 3 
+SAMPL4_011, -6.83   , 0.16     , 3 
+SAMPL4_012, -3.91   , 0.12     , 4 
+SAMPL4_013, -4.39   , 0.10     , 3 
+SAMPL4_014, -3.88   , 0.22     , 4 
+SAMPL4_015, -5.09   , 0.18     , 3 
+SAMPL4_016, -5.09   , 0.20     , 3 
+SAMPL4_017, -3.18   , 0.08     , 2 
+SAMPL4_018, -15.64   , 0.21    , 3 
+SAMPL4_019, -3.37   , 0.20     , 3 
+SAMPL4_020, -2.70   , 0.05     , 3 
+SAMPL4_021, -8.03   , 0.16     , 3 
+SAMPL4_022, -8.83   , 0.20     , 3 
+SAMPL4_023, -4.43   , 0.20     , 3 
+SAMPL4_024, -4.49   , 0.11     , 3 
+SAMPL4_025, -4.20   , 0.15     , 3 
+SAMPL4_026, -5.33   , 0.20     , 3 
+SAMPL4_027, -24.46   , 0.29    , 1 
+SAMPL4_028, -23.32   , 0.28    , 1 
+SAMPL4_029, -10.76   , 0.16    , 4 
+SAMPL4_030, -3.72   , 0.17     , 4 
+SAMPL4_031, -5.03   , 0.20     , 3 
+SAMPL4_032, -3.02   , 0.15     , 3 
+SAMPL4_033, -6.65   , 0.14     , 3 
+SAMPL4_034, -6.45   , 0.20     , 3 
+SAMPL4_035, -4.32   , 0.11     , 4 
+SAMPL4_036, -4.99   , 0.08     , 3 
+SAMPL4_037, -6.65   , 0.13     , 4 
+SAMPL4_038, -4.43   , 0.13     , 4 
+SAMPL4_039, -0.29   , 0.16     , 3 
+SAMPL4_040, -3.61   , 0.12     , 2 
+SAMPL4_041, -2.48   , 0.21     , 2 
+SAMPL4_042, -1.58   , 0.14     , 3 
+SAMPL4_043, 1.22    , 0.10     , 2 
+SAMPL4_044, -4.48   , 0.13     , 3 
+SAMPL4_045, -12.48   , 0.21    , 3 
+SAMPL4_046, -10.57   , 0.11    , 3 
+SAMPL4_047, -13.43   , 0.13    , 3 
+SAMPL4_048, -13.34   , 0.11    , 3 
+SAMPL4_049, -3.38   , 0.12     , 3 
+SAMPL4_050, -3.33   , 0.07     , 4 
+SAMPL4_051, -10.96   , 0.20    , 3 
+SAMPL4_052, -2.41,    0.16      , 3 

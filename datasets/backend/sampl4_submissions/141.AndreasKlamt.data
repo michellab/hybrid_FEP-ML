@@ -1,0 +1,71 @@
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted statistical uncertainty (kcal/mol), predicted model uncertainty (kcal/mol)
+#Here we distinguish between statistical uncertainty and model uncertainty, as one may (for example) do force-field based calculations which yield very high-precision free energy estimates, given the particular force field. However, one may have considerable less confidence that the model uncertainty is anywhere near this low (uncertainty in ligand partial charges or other parameters, or expected quality of the force field, may substantially increase expected errors). Statistical uncertainties are expected to be reported typically based on some form of error analysis, while model uncertainty may be an empirical or qualitative estimate, such as based on past experience for similar compounds.
+#We anticipate scoring in at least two ways, one based on simple accuracy, and another based on uncertainty-weighted accuracy, where inaccurate results with low uncertainties are penalized the most, and accurate results with low uncertainties are penalized the most. High uncertainty results are rewarded/penalized less.
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+#compound,value,statistical uncertainty (1),model uncertainty (2)
+SAMPL4_001,-17.60,0.1,0.5
+SAMPL4_002,-3.27,0.1,0.5
+SAMPL4_003,-4.61,0.1,0.5
+SAMPL4_004,-5.02,0.1,0.5
+SAMPL4_005,-5.09,0.1,1.5
+SAMPL4_006,-4.96,0.1,1.0
+SAMPL4_007,-6.31,0.1,1.0
+SAMPL4_008,-5.82,0.1,1.0
+SAMPL4_009,-9.80,0.1,1.5
+SAMPL4_010,-6.36,0.1,1.0
+SAMPL4_011,-9.68,0.1,1.5
+SAMPL4_012,-5.12,0.1,0.5
+SAMPL4_013,-5.48,0.1,0.5
+SAMPL4_014,-5.48,0.1,0.5
+SAMPL4_015,-6.25,0.1,0.5
+SAMPL4_016,-4.53,0.1,1.0
+SAMPL4_017,-3.97,0.1,0.5
+SAMPL4_018,-16.99,0.1,0.5
+SAMPL4_019,-3.66,0.1,0.5
+SAMPL4_020,-2.94,0.1,0.5
+SAMPL4_021,-10.09,0.1,0.5
+SAMPL4_022,-8.13,0.1,0.5
+SAMPL4_023,-6.75,0.1,0.5
+SAMPL4_024,-6.01,0.1,0.5
+SAMPL4_025,-4.29,0.1,0.5
+SAMPL4_026,-6.16,0.1,1.5
+SAMPL4_027,-3.15,0.1,0.5
+SAMPL4_028,-2.70,0.1,0.5
+SAMPL4_029,-0.20,0.1,0.5
+SAMPL4_030,-3.15,0.1,1.0
+SAMPL4_031,-6.36,0.1,0.5
+SAMPL4_032,-7.73,0.1,0.5
+SAMPL4_033,-7.54,0.1,2.0
+SAMPL4_034,-5.11,0.1,1.0
+SAMPL4_035,-3.86,0.1,0.5
+SAMPL4_036,-5.14,0.1,0.5
+SAMPL4_037,-5.17,0.1,1.0
+SAMPL4_038,-4.09,0.1,0.5
+SAMPL4_039,-0.62,0.1,0.5
+SAMPL4_040,-4.22,0.1,0.5
+SAMPL4_041,-3.63,0.1,1.0
+SAMPL4_042,-2.93,0.1,0.5
+SAMPL4_043,0.36,0.1,0.5
+SAMPL4_044,-5.65,0.1,0.5
+SAMPL4_045,-14.14,0.1,0.5
+SAMPL4_046,-9.88,0.1,0.5
+SAMPL4_047,-13.15,0.1,0.5
+SAMPL4_048,-13.70,0.1,0.5
+SAMPL4_049,-3.33,0.1,0.5
+SAMPL4_050,-3.64,0.1,0.5
+SAMPL4_051,-10.10,0.1,0.5
+SAMPL4_052,-3.25,0.1,0.5
+# (1) The given statistical uncertainty is based on an assumption that different user might find different conformations and use them. It is an estimate according to our experience.
+#     The pure statistical uncertainty of COSMO-RS with identical conformations is about 1E-4 kcal/mol,,,
+# (2) The model uncertainty is based on the general accuracy of our COSMO-RS (root mean square error = 0.5 kcal/mol), where certain compounds have been asigned a
+#      larger error according to our experience.
+#
+# Compound,Value,Exp Value (3),Reference
+# SAMPL4_042,-2.93,-3.12,unknown; internal data
+# SAMPL4_043,0.36,0.37,unknown; internal data
+# SAMPL4_044,-5.65,-5.05,unknown; internal data
+# SAMPL4_050,-3.64,-3.46,unknown; internal data
+#
+# (3) The given experimental values have been part of the parameterization C21_0108 from 2008. The parameterization C21_0108 is based on > 1300 experimental data points.
+#     Building a parameterization could be seen similar to building a force field. The values have not been considered further and no adjustments have been made.

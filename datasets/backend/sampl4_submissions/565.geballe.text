@@ -1,0 +1,3 @@
+Prizma was an internal name, that is now called FreeformSolv (and referred to as thus on Ben's poster).  It's largely a formalization of the approach detailed in Ant's paper from SAMPL2 (ref below).  Basically we generate a default OMEGA conformer pool, minimize in gas phase, choose the lowest energy conformer, calculate AM1BCC charges and then do standard ZAP solvation energy calculation with ZAP9 radii and the default surface area term.
+
+The only difference between 566 and 565 was that 566 used symmetrized AM1BCC charges.  Also, I'm not sure that we collected all the submissions together, but feel free to refer to my and Ben's submissions together as OpenEye submissions.  That would be numbers 561, 565, 566, 567, 568, 569, 570, 572, and 573.

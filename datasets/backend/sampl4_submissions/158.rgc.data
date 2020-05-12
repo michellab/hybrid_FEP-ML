@@ -1,0 +1,73 @@
+#DOCK3.7 default hydration free energy calculations with AMSOL (primarily)
+#DOCK3.7 (like 3.5.54 and 3.6) uses AMSOL to calculation hydration transfer
+#energies, these were drawn from such calculations done in the standard setup
+#of DOCK3.7 database preparation (very similar to that used in the current
+# ZINC Processing Pipeline). The statistical uncertaintanties are calculated
+#from using multiple protomers or tautomers if they exist, certainly we do not
+#claim that the method has perfect statistical accuracy for those with only
+#one such tautomer and protomer, that ends up being 0. The model uncertainty
+#comes from an estimate done by another group on an entirely different set
+#published in Yang & Sharp JCTC 2006 where they found AMSOL to have a RMSE of 
+#0.65 on their dataset (disclaimer, I was in the Sharp lab when that paper was 
+# written but did not take part in that research). 
+#the purpose of this submission is to benchmark how well DOCK/ZINC
+#is doing and how much better we could do with another method from another group
+# (all those submitted to SAMPL), and perhaps simply give a benchmark for how 
+#well a very fast system does as compared to some more time-consuming systems.
+#While we do not expect to do well or win these predictions, we hope this
+#submission provides useful data nonetheless
+SAMPL4_001, -22.78615, 1.20812713631, 0.65
+SAMPL4_002, 3.67, 0.08, 0.65
+SAMPL4_003, 1.15, 0.06, 0.65
+SAMPL4_004, 0.0, 0.0, 0.65 #Added after submission by request of Ryan; his tool can't handle this compound
+SAMPL4_005, -2.49, 0.0, 0.65
+SAMPL4_006, -1.38, 0.0, 0.65
+SAMPL4_007, -1.77, 0.0, 0.65
+SAMPL4_008, -2.77, 0.0, 0.65
+SAMPL4_009, -33.8, 0.0, 0.65
+SAMPL4_010, -18.985, 16.195, 0.65
+SAMPL4_011, -26.51, 17.22, 0.65
+SAMPL4_012, 1.4225, 0.157539677542, 0.65
+SAMPL4_013, 1.3125, 0.237526314332, 0.65
+SAMPL4_014, 0.005, 0.005, 0.65
+SAMPL4_015, -0.425, 0.015, 0.65
+SAMPL4_016, 2.2675, 0.620122635721, 0.65
+SAMPL4_017, 2.3, 0.183847763109, 0.65
+SAMPL4_018, -25.03, 17.63, 0.65
+SAMPL4_019, 5.51, 0.0, 0.65
+SAMPL4_020, 6.3, 0.0, 0.65
+SAMPL4_021, -11.98, 12.46, 0.65
+SAMPL4_022, -44.12, 0.0, 0.65
+SAMPL4_023, -23.56, 0.0, 0.65
+SAMPL4_024, -23.9, 0.0, 0.65
+SAMPL4_025, -2.51, 0.0, 0.65
+SAMPL4_026, -3.33, 0.0, 0.65
+SAMPL4_027, 1.23, 0.0, 0.65
+SAMPL4_028, 1.86, 0.0, 0.65
+SAMPL4_029, 4.71, 0.0, 0.65
+SAMPL4_030, 1.25, 0.0, 0.65
+SAMPL4_031, -37.085, 0.025, 0.65
+SAMPL4_032, -1.23, 0.0, 0.65
+SAMPL4_033, -6.39, 0.0, 0.65
+SAMPL4_034, -3.41, 0.0, 0.65
+SAMPL4_035, -5.54, 0.0, 0.65
+SAMPL4_036, -0.39, 0.0, 0.65
+SAMPL4_037, -4.06, 0.0, 0.65
+SAMPL4_038, -1.38, 0.0, 0.65
+SAMPL4_039, 4.53, 0.0, 0.65
+SAMPL4_040, -2.48, 0.0, 0.65
+SAMPL4_041, -31.68, 0.0, 0.65
+SAMPL4_042, 0.76, 0.0, 0.65
+SAMPL4_043, 4.19, 0.0, 0.65
+SAMPL4_044, -2.62, 0.0, 0.65
+SAMPL4_045, -3.41, 0.0, 0.65
+SAMPL4_046, -2.27, 0.0, 0.65
+SAMPL4_047, -6.8, 0.0, 0.65
+SAMPL4_048, -4.48, 0.0, 0.65
+SAMPL4_049, -1.98, 0.0, 0.65
+SAMPL4_050, 4.07, 0.0, 0.65
+SAMPL4_051, -5.39, 0.0, 0.65
+SAMPL4_052, 2.81, 0.0, 0.65
+#no experimental data or literature data was consulted in any way by us. 
+#However, AMSOL could have used any variety of data to train their system,
+#which may have included some of the data used here, I have not checked.

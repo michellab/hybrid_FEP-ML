@@ -1,0 +1,9 @@
+#The results from the following steps: 
+#Version 2.5.1.4: omega2 -maxconfs 1 -sampleH
+#Version 1.7.0: szybki (defaults)
+#Version QUACPAC 1.6.3.1: molcharge -method am1bcc
+#Oct 2013 TK: OEAssignZap9Radii(mol), 0.0063 kcal/sq A, zap.CalcSolvationEnergy()
+#Total combined calculation time on single core: 25 sec
+
+This is hopefully an improvement on my usual submission because the OMEGA calculation now samples hydrogen positions on hydroxyl and amines.  The total time is still slightly less than 0.5 sec/molecule.
+

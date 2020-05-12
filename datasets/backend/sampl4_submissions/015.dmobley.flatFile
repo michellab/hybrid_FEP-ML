@@ -1,0 +1,15 @@
+RefNo: 015
+Username: dmobley
+Email: dmobley@uci.edu
+Anonymous: no
+Method: flexConf 3D multConf
+Personhours: Less than 1 hour
+CPUhours: 10 seconds
+OS: Linux
+Hardware: mixed cluster 2.6 GHz
+Predicted RMSE: 5.0
+Datafile: ../database/sampl4_xfer/196.rgc.data
+Datafile Name: sampl4_allconfs.mean.noexpl.txt
+Methodfile: ../database/sampl4_xfer/196.rgc.text
+Methodfile Name: methods_mean.txt
+

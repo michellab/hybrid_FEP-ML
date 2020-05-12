@@ -1,0 +1,15 @@
+RefNo: 189
+Username: epurisima
+Email: enrico.purisima@nrc.ca
+Anonymous: no
+Method: singleConf qm 3D implSolv
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: Intel Xeon 2.67 GHz
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/189.epurisima.data
+Datafile Name: predictions_fish.txt
+Methodfile: ../database/sampl4_xfer/189.epurisima.text
+Methodfile Name: Readme_fish.txt
+

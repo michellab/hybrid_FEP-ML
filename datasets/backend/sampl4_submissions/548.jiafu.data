@@ -1,0 +1,58 @@
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted statistical uncertainty (kcal/mol), predicted model uncertainty (kcal/mol)
+#Here we distinguish between statistical uncertainty and model uncertainty, as one may (for example) do force-field based calculations which yield very high-precision free energy estimates, given the particular force field. However, one may have considerable less confidence that the model uncertainty is anywhere near this low (uncertainty in ligand partial charges or other parameters, or expected quality of the force field, may substantially increase expected errors). Statistical uncertainties are expected to be reported typically based on some form of error analysis, while model uncertainty may be an empirical or qualitative estimate, such as based on past experience for similar compounds.
+#We anticipate scoring in at least two ways, one based on simple accuracy, and another based on uncertainty-weighted accuracy, where inaccurate results with low uncertainties are penalized the most, and accurate results with low uncertainties are penalized the most. High uncertainty results are rewarded/penalized less.
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+SAMPL4_001,	-19.3308	,	0.15353	,	5.5041
+SAMPL4_002,	-2.34859	,	0.06899	,	0.59949
+SAMPL4_003,	-1.84111	,	0.04079	,	0.43301
+SAMPL4_004,	-4.75875	,	0.03296	,	1.36498
+SAMPL4_005,	-3.16095	,	0.23351	,	1.3915
+SAMPL4_006,	-4.5846	,	1.02093	,	3.15128
+SAMPL4_007,	-5.09847	,	0.03504	,	1.25677
+SAMPL4_008,	-5.31071	,	1.82993	,	2.57407
+SAMPL4_009,	-6.91147	,	1.14312	,	1.71292
+SAMPL4_010,	-1.99144	,	0.76577	,	2.40716
+SAMPL4_011,	-6.91209	,	0.58165	,	1.59789
+SAMPL4_012,	-2.91507	,	0.08224	,	0.10258
+SAMPL4_013,	-1.90712	,	0.11036	,	0.85406
+SAMPL4_014,	-3.74421	,	0.09332	,	0.3842
+SAMPL4_015,	-3.54804	,	0.13563	,	0.26017
+SAMPL4_016,	-1.88129	,	0.0623	,	0.70269
+SAMPL4_017,	-2.16941	,	0.10647	,	0.24025
+SAMPL4_018,	-20.4008	,	0.36612	,	1.14422
+SAMPL4_019,	0.49487	,	0.16867	,	1.8021
+SAMPL4_020,	1.28568	,	0.09722	,	1.83221
+SAMPL4_021,	-5.30418	,	0.35363	,	1.48726
+SAMPL4_022,	-5.70246	,	0.57455	,	2.36647
+SAMPL4_023,	-0.11647	,	0.23475	,	3.73568
+SAMPL4_024,	0.19467	,	0.23706	,	5.23587
+SAMPL4_025,	-4.79396	,	3.54184	,	2.86636
+SAMPL4_026,	-7.75172	,	0.15418	,	1.06604
+SAMPL4_027,	-7.78437	,	0.09756	,	1.31743
+SAMPL4_028,	-6.74876	,	0.07463	,	1.17702
+SAMPL4_029,	-2.11618	,	0.08689	,	0.76285
+SAMPL4_030,	-4.75825	,	2.86E-04	,	0.31735
+SAMPL4_031,	-9.07976	,	0.02492	,	0.61107
+SAMPL4_032,	-5.05638	,	0.05593	,	0.23336
+SAMPL4_033,	-5.34558	,	0.29825	,	2.0418
+SAMPL4_034,	-5.13212	,	2.15004	,	3.10014
+SAMPL4_035,	-4.39959	,	9.61E-04	,	0.59831
+SAMPL4_036,	-2.98587	,	0.29029	,	1.0018
+SAMPL4_037,	-5.59203	,	1.94416	,	2.74131
+SAMPL4_038,	-4.39499	,	0.09514	,	0.62255
+SAMPL4_039,	1.16019	,	0.08732	,	0.99691
+SAMPL4_040,	-3.71064	,	0.05594	,	0.46632
+SAMPL4_041,	-2.04114	,	0.02004	,	0.51207
+SAMPL4_042,	-1.75891	,	0.04233	,	0.43191
+SAMPL4_043,	1.25101	,	0.04855	,	0.17586
+SAMPL4_044,	-4.19596	,	0.03191	,	0.39637
+SAMPL4_045,	-12.6068	,	0.39891	,	1.46469
+SAMPL4_046,	-9.30094	,	0.24901	,	1.39475
+SAMPL4_047,	-19.1444	,	0.24396	,	0.97078
+SAMPL4_048,	-10.8804	,	0.42319	,	1.63304
+SAMPL4_049,	-1.0443	,	0.12261	,	1.36319
+SAMPL4_050,	0.1421	,	0.12691	,	2.28257
+SAMPL4_051,	-10.5001	,	0.25082	,	0.47589
+SAMPL4_052,	0.16917	,	0.15732	,	1.49231
+#List any experimental data consulted (with references) and how it was used, if at all, here.  

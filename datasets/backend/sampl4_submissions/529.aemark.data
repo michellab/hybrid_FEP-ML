@@ -1,0 +1,57 @@
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted uncertainty in calculated value in kcal/mol, confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+SAMPL4_001, -20.5, 2.2, 3  
+SAMPL4_002, -2.1, 0.6, 3
+SAMPL4_003, -4.9, 0.5, 3
+SAMPL4_004, -3.8, 0.3, 3 
+SAMPL4_005, -2.9, 0.5, 3
+SAMPL4_006, -10.5, 0.8, 3
+SAMPL4_007, -9.2, 0.7, 3
+SAMPL4_008, -8.2, 0.6, 3
+SAMPL4_009, -10.5, 0.5, 2 
+SAMPL4_010, -7.1, 0.4, 4
+SAMPL4_011, -9.6, 0.6, 3
+SAMPL4_012, -4.2, 0.6, 3
+SAMPL4_013, -3.1, 0.4, 3
+SAMPL4_014, -4.7, 0.7, 2
+SAMPL4_015, -4.4, 0.7, 3
+SAMPL4_016, -3.9, 0.5, 3
+SAMPL4_017, -2.9, 0.5, 3
+SAMPL4_018, -26.1, 0.6, 3
+SAMPL4_019, -0.9, 0.3, 4
+SAMPL4_020, -0.8, 0.3, 4
+SAMPL4_021, -6.6, 0.3, 3
+SAMPL4_022, -8.8, 0.8, 2
+SAMPL4_023, -2.9, 0.9, 3
+SAMPL4_024, -0.6, 0.5, 3
+SAMPL4_025, -4.4, 0.5, 3
+SAMPL4_026, -5.6, 0.5, 3 
+SAMPL4_027, -3.8, 0.3, 2
+SAMPL4_028, -3.2, 0.8, 2
+SAMPL4_029, -1.1, 0.6, 3
+SAMPL4_030, -4.5, 0.5, 4
+SAMPL4_031, -6.8, 0.5, 2
+SAMPL4_032, -7.8, 0.4, 3
+SAMPL4_033, -7.0, 0.5, 3
+SAMPL4_034, -8.8, 0.5, 3
+SAMPL4_035, -6.2, 0.9, 3
+SAMPL4_036, -5.7, 0.4, 4
+SAMPL4_037, -9.9, 0.5, 3
+SAMPL4_038, -4.7, 0.4, 4
+SAMPL4_039, 0.4, 0.3, 4
+SAMPL4_040, -3.0, 0.3, 3
+SAMPL4_041, -1.4, 0.3, 4
+SAMPL4_042, -1.1, 0.3, 4
+SAMPL4_043, 1.8, 0.2, 4
+SAMPL4_044, -1.8, 0.4, 4
+SAMPL4_045, -14.8, 0.5, 2
+SAMPL4_046, -10.3, 0.4, 2
+SAMPL4_047, -12.0, 0.7, 2
+SAMPL4_048, -14.5, 0.4, 2
+SAMPL4_049, -2.6, 0.5, 3
+SAMPL4_050, -2.1, 0.3, 3
+SAMPL4_051, -12.6, 0.6, 2
+SAMPL4_052, -1.9, 0.4, 3
+#List any experimental data consulted (with references) and how it was used, if at all, here. 
+# No experimental data was used. 

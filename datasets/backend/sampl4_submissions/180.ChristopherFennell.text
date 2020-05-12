@@ -1,0 +1,3 @@
+The quadrupolar variant of Semi-Explicit Assembly (SEA) is used in these predictions. It was applied to the SAMPL4 molecules described using the general Amber Force Field and AM1-BCC partial charges. Hydroxyl, carbonyl, and carboxylic acid moieties in this force field were modulated according to results from a dielectric constant optimization technique. This optimization technique tends to increase hydration favorability for these chemical groups.
+
+The values are averages from 100 conformers evenly selected from a 10 ns molecular dynamics simulation of the solute in TIP3P water. This simulation was run using GROMACS 4.5.5, and took about 1 CPU day per solute molecule to complete. The set of 100 SEA calculations took under 1 CPU second per solute molecule to complete.

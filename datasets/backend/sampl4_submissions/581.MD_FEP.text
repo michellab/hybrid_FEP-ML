@@ -1,0 +1,7 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 The absolute hydration free energies for the set of 24 Blind compounds were calculated using MD/FEP with a developmental version of OPLS force field and Desmond MD package.  The molecules were solvated in an orthorhombic water box using a 10 \'c5 buffer with no ions. The solvated structures were then minimized for 10 steps with the steepest descent method followed by a maximum of 1990 steps with the LBFGS method. The minimized system was further relaxed with a 24 ps molecular dynamics simulation at 300K temperature and 1 atm pressure. A twelve lambda window schedule was used and each lambda was run for 10 ns. Production run was carried out for 10ns for each lambda window using a developmental version of MD/FEP in Desmond. We used the Bennett acceptance ratio (BAR) method to estimate the free energy difference from the simulations.}

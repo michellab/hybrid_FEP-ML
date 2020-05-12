@@ -1,0 +1,15 @@
+RefNo: 582
+Username: parsod
+Email: par.soderhjelm@teokem.lu.se
+Anonymous: no
+Method: explSolv flexConf 3D md
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: AMD 6220 @ 3.0 GHz
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/582.parsod.data
+Datafile Name: amoeba.txt
+Methodfile: ../database/sampl4_xfer/582.parsod.text
+Methodfile Name: amoeba-info.txt
+

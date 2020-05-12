@@ -1,0 +1,15 @@
+RefNo: 581
+Username: MD_FEP
+Email: dnas78@yahoo.com
+Anonymous: yes
+Method: md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: AMD Opteron
+Predicted RMSE: 1
+Datafile: ../database/sampl4_xfer/581.MD_FEP.data
+Datafile Name: SAMPL4_Final.csv
+Methodfile: ../database/sampl4_xfer/581.MD_FEP.text
+Methodfile Name: method.rtf
+

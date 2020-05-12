@@ -1,0 +1,10 @@
+Methods used here are very similar to the ZINC Processing Pipeline 
+published as Irwin et al 2012 in JCIM. However, we have made use of 
+Chemaxon's Marvin as a replacement for EPIK for protonation / 
+tautomerization. Corina & OMEGA are used to make 3D conformations and 
+AMSOL is used to actually get hydration free energies. This method is 
+not very exhaustive or extensive (estimated time per compound is 10 
+seconds total, which is likely an overestimate), but is simply provided 
+as a benchmark to see how well the transfer free energies in our current 
+docking protocol compare to measured energies, and as a baseline for better,
+more extensive methods to show improvement against.

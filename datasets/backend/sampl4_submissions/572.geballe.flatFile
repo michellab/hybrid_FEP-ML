@@ -1,0 +1,15 @@
+RefNo: 572
+Username: geballe
+Email: geballem@gmail.com
+Anonymous: no
+Method: 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: Chris' Desktop
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/572.geballe.data
+Datafile Name: dG_canABC_data.csv
+Methodfile: ../database/sampl4_xfer/572.geballe.text
+Methodfile Name: dG_canABC_method.txt
+

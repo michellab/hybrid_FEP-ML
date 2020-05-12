@@ -1,0 +1,15 @@
+RefNo: 532
+Username: gerhard
+Email: gerhard.koenig@nih.gov
+Anonymous: no
+Method: explSolv flexConf qm 3D multConf md
+Personhours: Greater than 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: www.lobos.nih.gov and biowulf.nih.gov
+Predicted RMSE: 3
+Datafile: ../database/sampl4_xfer/532.gerhard.data
+Datafile Name: prediction3.csv
+Methodfile: ../database/sampl4_xfer/532.gerhard.text
+Methodfile Name: method3.doc
+

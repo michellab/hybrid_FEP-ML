@@ -1,0 +1,15 @@
+RefNo: 149
+Username: hwangseo
+Email: hspark@sejong.ac.kr
+Anonymous: no
+Method: singleConf 3D implSolv mc
+Personhours: 1 to 2 hours
+CPUhours: 1 second
+OS: Linux
+Hardware: 2.5 GHz Intel  Xeon Quad-Core
+Predicted RMSE: 0.6
+Datafile: ../database/sampl4_xfer/149.hwangseo.data
+Datafile Name: predictions.txt
+Methodfile: ../database/sampl4_xfer/149.hwangseo.text
+Methodfile Name: hydration_SAMPL4.doc
+

@@ -1,0 +1,62 @@
+# SAMPL4 : Hydration free energy prediction challenge
+#####################################################
+# ANSWER 1
+##########
+# 
+# Results obtained by : Oliver Beckstein (Arizona State University, Department of Physics, Tempe, AZ, USA), Anais Fourrier and Bogdan I. Iorga (Institut de Chimie des Substances Naturelles, CNRS, Gif-sur-Yvette, France).
+# 
+# Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted statistical uncertainty (kcal/mol), predicted model uncertainty (kcal/mol)
+# This is a commma-delimited file format. Lines preceded by a "#" will be treated as comments.
+#
+SAMPL4_001, -19.96, 0.28, 2.00
+SAMPL4_002, -2.08, 0.08, 2.00
+SAMPL4_003, -2.78, 0.08, 2.00
+SAMPL4_004, -2.71, 0.08, 2.00
+SAMPL4_005, -2.87, 0.06, 2.00
+SAMPL4_006, -3.17, 0.07, 2.00
+SAMPL4_007, -5.30, 0.07, 2.00
+SAMPL4_008, -4.04, 0.07, 2.00
+SAMPL4_009, -10.08, 0.09, 2.00
+SAMPL4_010, -5.86, 0.08, 2.00
+SAMPL4_011, -7.59, 0.09, 2.00
+SAMPL4_012, -2.73, 0.07, 2.00
+SAMPL4_013, -4.75, 0.08, 2.00
+SAMPL4_014, -2.09, 0.07, 2.00
+SAMPL4_015, -3.13, 0.07, 2.00
+SAMPL4_016, -3.97, 0.08, 2.00
+SAMPL4_017, -2.58, 0.07, 2.00
+SAMPL4_018, -14.09, 0.09, 2.00
+SAMPL4_019, -4.02, 0.08, 2.00
+SAMPL4_020, -1.87, 0.08, 2.00
+SAMPL4_021, -9.95, 0.07, 1.00
+SAMPL4_022, -10.10, 0.09, 2.00
+SAMPL4_023, -6.63, 0.11, 2.00
+SAMPL4_024, -6.52, 0.11, 2.00
+SAMPL4_025, -3.61, 0.08, 2.00
+SAMPL4_026, -3.69, 0.07, 2.00
+SAMPL4_027, -7.03, 0.06, 1.00
+SAMPL4_028, -6.47, 0.06, 1.00
+SAMPL4_029, -1.23, 0.06, 1.00
+SAMPL4_030, -0.45, 0.07, 2.00
+SAMPL4_031, -3.94, 0.06, 2.00
+SAMPL4_032, -5.54, 0.06, 2.00
+SAMPL4_033, -6.24, 0.07, 2.00
+SAMPL4_034, -4.13, 0.07, 2.00
+SAMPL4_035, -6.34, 0.06, 2.00
+SAMPL4_036, -4.36, 0.06, 2.00
+SAMPL4_037, -4.05, 0.06, 2.00
+SAMPL4_038, -3.63, 0.06, 2.00
+SAMPL4_039, -1.49, 0.07, 2.00
+SAMPL4_040, -2.86, 0.05, 4.00
+SAMPL4_041, -3.55, 0.06, 2.00
+SAMPL4_042, -1.94, 0.05, 2.00
+SAMPL4_043, 0.95, 0.05, 2.00
+SAMPL4_044, -2.62, 0.05, 2.00
+SAMPL4_045, -10.27, 0.09, 2.00
+SAMPL4_046, -9.55, 0.09, 2.00
+SAMPL4_047, -12.08, 0.11, 2.00
+SAMPL4_048, -12.63, 0.09, 2.00
+SAMPL4_049, -1.30, 0.07, 2.00
+SAMPL4_050, -2.65, 0.07, 2.00
+SAMPL4_051, -11.35, 0.10, 2.00
+SAMPL4_052, -1.16, 0.07, 2.00

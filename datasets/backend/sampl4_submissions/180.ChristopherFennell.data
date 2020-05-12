@@ -1,0 +1,57 @@
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted uncertainty in calculated value in kcal/mol, confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+SAMPL4_001, -27.0  , 0.4  ,  5
+SAMPL4_002, -4.81  , 0.05 ,  5
+SAMPL4_003, -5.2   , 0.1  ,  4
+SAMPL4_004, -4.9   , 0.1  ,  5
+SAMPL4_005, -4.53  , 0.08 ,  2
+SAMPL4_006, -4.9   , 0.1  ,  4
+SAMPL4_007, -5.3   , 0.1  ,  5
+SAMPL4_008, -5.3   , 0.1  ,  5
+SAMPL4_009, -12.02 , 0.09 ,  5
+SAMPL4_010, -6.85  , 0.08 ,  4
+SAMPL4_011, -12.1  , 0.1  ,  5
+SAMPL4_012, -4.99  , 0.04 ,  5
+SAMPL4_013, -4.31  , 0.08 ,  3
+SAMPL4_014, -4.19  , 0.03 ,  3
+SAMPL4_015, -5.98  , 0.04 ,  4
+SAMPL4_016, -3.69  , 0.08 ,  3
+SAMPL4_017, -4.89  , 0.04 ,  5
+SAMPL4_018, -17.9  , 0.1  ,  4
+SAMPL4_019, -3.13  , 0.03 ,  3
+SAMPL4_020, -3.63  , 0.04 ,  4
+SAMPL4_021, -8.22  , 0.05 ,  4
+SAMPL4_022, -6.5   , 0.1  ,  3
+SAMPL4_023, -7.6   , 0.1  ,  4
+SAMPL4_024, -6.58  , 0.07 ,  3
+SAMPL4_025, -3.6   , 0.2  ,  4
+SAMPL4_026, -7.68  , 0.08 ,  5
+SAMPL4_027, -4.20  , 0.08 ,  3
+SAMPL4_028, -4.04  , 0.08 ,  3
+SAMPL4_029, -1.00  , 0.03 ,  2
+SAMPL4_030, -4.91  , 0.04 ,  4
+SAMPL4_031, -4.65  , 0.06 ,  3
+SAMPL4_032, -6.03  , 0.09 ,  4
+SAMPL4_033, -8.84  , 0.09 ,  5
+SAMPL4_034, -5.5   , 0.1  ,  5
+SAMPL4_035, -7.1   , 0.1  ,  4
+SAMPL4_036, -4.91  , 0.07 ,  4
+SAMPL4_037, -5.8   , 0.1  ,  5
+SAMPL4_038, -6.68  , 0.04 ,  4
+SAMPL4_039, -0.30  , 0.02 ,  4
+SAMPL4_040, -2.15  , 0.02 ,  3
+SAMPL4_041, -2.69  , 0.06 ,  2
+SAMPL4_042, -1.28  , 0.02 ,  2
+SAMPL4_043, 1.64   , 0.01 ,  3
+SAMPL4_044, -3.59  , 0.02 ,  3
+SAMPL4_045, -14.47 , 0.08 ,  4
+SAMPL4_046, -13.9  , 0.1  ,  5
+SAMPL4_047, -17.7  , 0.2  ,  5
+SAMPL4_048, -14.6  , 0.1  ,  4
+SAMPL4_049, -4.08  , 0.03 ,  3
+SAMPL4_050, -4.68  , 0.03 ,  4
+SAMPL4_051, -13.3  , 0.2  ,  5
+SAMPL4_052, -2.46  , 0.03 ,  3
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+# No experimental hydration data consulted or used.

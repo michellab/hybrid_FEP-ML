@@ -1,0 +1,15 @@
+RefNo: 568
+Username: geballe
+Email: geballem@gmail.com
+Anonymous: no
+Method: 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: Chris' Desktop
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/568.geballe.data
+Datafile Name: dG_am1bcc_PB_data.csv
+Methodfile: ../database/sampl4_xfer/568.geballe.text
+Methodfile Name: dG_am1bcc_PB_method.txt
+

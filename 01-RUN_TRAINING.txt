@@ -1,0 +1,7 @@
+To run training protocols: 
+- enter individual ML folders;
+- run both ipython notebooks (to train on dGoffset and dG)
+
+Depending on hardware, with the current settings RF and DNN will take 20-50 hours to finish running. If faster runtimes are desired then the n_calls variable can be reduced, but note this may result in worse convergence.
+Note that when these notebooks are running, the authors' model files will be overwritten on your local environment. 
+After all training notebooks have finished running, all the publication's figures can be reproduced by running the notebooks 02, 03 and 04.

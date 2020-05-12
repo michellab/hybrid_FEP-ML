@@ -1,0 +1,15 @@
+RefNo: 575
+Username: weyang
+Email: yyang2@fsu.edu
+Anonymous: no
+Method: explSolv md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: FSU HPC
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/575.weyang.data
+Datafile Name: predictions-hydration-fsu.txt
+Methodfile: ../database/sampl4_xfer/575.weyang.text
+Methodfile Name: method-hydration-fsu.txt
+

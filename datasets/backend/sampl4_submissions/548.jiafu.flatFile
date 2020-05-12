@@ -1,0 +1,15 @@
+RefNo: 548
+Username: jiafu
+Email: jfu002@ucr.edu
+Anonymous: no
+Method: explSolv singleConf 3D
+Personhours: Less than 1 hour
+CPUhours: 1 hour
+OS: Linux
+Hardware: 2.67 GHz  Intel Xeon X5550 (
+Predicted RMSE: 1.4
+Datafile: ../database/sampl4_xfer/548.jiafu.data
+Datafile Name: predictions.txt
+Methodfile: ../database/sampl4_xfer/548.jiafu.text
+Methodfile Name: Solvation_Details.docx
+

@@ -1,0 +1,15 @@
+RefNo: 534
+Username: gerhard
+Email: gerhard.koenig@nih.gov
+Anonymous: no
+Method: singleConf qm 3D implSolv
+Personhours: Greater than 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 6x 2.3 GHz Sandy Bridge
+Predicted RMSE: 3
+Datafile: ../database/sampl4_xfer/534.gerhard.data
+Datafile Name: prediction5.csv
+Methodfile: ../database/sampl4_xfer/534.gerhard.text
+Methodfile Name: method5.doc
+

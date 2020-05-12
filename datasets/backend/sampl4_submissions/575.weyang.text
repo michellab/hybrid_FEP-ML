@@ -1,0 +1,5 @@
+An orthogonal space tempering derivative free energy sampling method was employed. Flexible molecules were specially treated by removing torsional degree energy barriers along selected bonds at dummy molecule states; correspondingly, additional gas phase free energy calculations were performed to correct their contributions.
+
+We expected this free energy method to efficiently sample molecular conformations, water cavity formation/annihilation, and their couplings.
+
+Note: Amber-GAFF-AM1-BCC/TIP3P-MOD was used.

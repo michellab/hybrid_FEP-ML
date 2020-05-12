@@ -1,0 +1,63 @@
+#This is QM-fitted Amoeba
+#Free energy simulations using an Amoeba polarizable force field especially fitted to QM calculations for the particular system
+
+#Francesco Manzoni and Par Soderhjelm, August 16, 2013
+
+#Format: Compound name, calculated transfer free energy (1M to 1M) in kcal/mol, predicted statistical uncertainty (kcal/mol), predicted model uncertainty (kcal/mol)
+#Here we distinguish between statistical uncertainty and model uncertainty, as one may (for example) do force-field based calculations which yield very high-precision free energy estimates, given the particular force field. However, one may have considerable less confidence that the model uncertainty is anywhere near this low (uncertainty in ligand partial charges or other parameters, or expected quality of the force field, may substantially increase expected errors). Statistical uncertainties are expected to be reported typically based on some form of error analysis, while model uncertainty may be an empirical or qualitative estimate, such as based on past experience for similar compounds.
+#We anticipate scoring in at least two ways, one based on simple accuracy, and another based on uncertainty-weighted accuracy, where inaccurate results with low uncertainties are penalized the most, and accurate results with low uncertainties are penalized the most. High uncertainty results are rewarded/penalized less.
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+SAMPL4_001, -13.18 , 	0.24 , 1.5 ,2
+SAMPL4_002,        , 	     ,  ,
+SAMPL4_003, -2.26  , 	0.17 , 1.5 ,2
+SAMPL4_004, -2.53  , 	0.17 , 1.5 ,2
+SAMPL4_005,        , 	     ,  ,
+SAMPL4_006, -4.33  , 	0.18 , 1.5 ,2
+SAMPL4_007, -4.48  , 	0.16 , 1.5 ,2
+SAMPL4_008, -4.67  , 	0.15 , 1.5 ,2
+SAMPL4_009, -7.12  , 	0.18 , 1.5 ,2
+SAMPL4_010,        , 	     ,  ,
+SAMPL4_011,        , 	     ,  ,
+SAMPL4_012, -2.73  , 	0.16 , 1.5 ,2
+SAMPL4_013, -2.58  , 	0.17 , 1.5 ,2
+SAMPL4_014,        , 	     ,  ,
+SAMPL4_015, -0.48  , 	0.17 , 1.5 ,2
+SAMPL4_016, -1.71  , 	0.17 , 1.5 ,2
+SAMPL4_017,  ,  ,  ,
+SAMPL4_018,  ,  ,  ,
+SAMPL4_019,  ,  ,  ,
+SAMPL4_020,  ,  ,  ,
+SAMPL4_021,  ,  ,  ,
+SAMPL4_022,  ,  ,  ,
+SAMPL4_023,  ,  ,  ,
+SAMPL4_024,  ,  ,  ,
+SAMPL4_025,  ,  ,  ,
+SAMPL4_026,  ,  ,  ,
+SAMPL4_027,  ,  ,  ,
+SAMPL4_028,  ,  ,  ,
+SAMPL4_029,  ,  ,  ,
+SAMPL4_030,  ,  ,  ,
+SAMPL4_031,  ,  ,  ,
+SAMPL4_032,  ,  ,  ,
+SAMPL4_033,  ,  ,  ,
+SAMPL4_034,  ,  ,  ,
+SAMPL4_035,  ,  ,  ,
+SAMPL4_036,  ,  ,  ,
+SAMPL4_037,  ,  ,  ,
+SAMPL4_038,  ,  ,  ,
+SAMPL4_039,  ,  ,  ,
+SAMPL4_040,  ,  ,  ,
+SAMPL4_041,  ,  ,  ,
+SAMPL4_042,  ,  ,  ,
+SAMPL4_043,  ,  ,  ,
+SAMPL4_044,  ,  ,  ,
+SAMPL4_045,  ,  ,  ,
+SAMPL4_046,  ,  ,  ,
+SAMPL4_047,  ,  ,  ,
+SAMPL4_048,  ,  ,  ,
+SAMPL4_049,  ,  ,  ,
+SAMPL4_050,  ,  ,  ,
+SAMPL4_051,  ,  ,  ,
+SAMPL4_052,  ,  ,  ,
+#List any experimental data consulted (with references) and how it was used, if at all, here.  

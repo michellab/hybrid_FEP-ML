@@ -1,0 +1,11 @@
+Prediction method (lhs@sampl4)
+
+1. Conformational search: Macromodel/MMFF94s, search for global minima.
+
+2. QM geometry optimization: Jaguar PBE0/6-311++G**
+
+3. QM reaction field single point: Jaguar PBE0/aug-cc-pVTZ in water (PBF): ESP charges and reorganization energy.
+
+4. Solvation free energy calculation: Molhydro 0.2 Angstrom grid/LSFF atomic LJ-parameters. Advanced dielectric continuum model which includes dielectric saturation and electrostriction.  
+
+5. Post processing: Functional group corrections for a few groups (alcohol, ether, ester, and amine).

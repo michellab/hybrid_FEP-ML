@@ -1,0 +1,15 @@
+RefNo: 564
+Username: biorga
+Email: bogdan.iorga@cnrs.fr
+Anonymous: no
+Method: explSolv qm 3D multConf md
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: diverse
+Predicted RMSE: 2
+Datafile: ../database/sampl4_xfer/564.biorga.data
+Datafile Name: ghyd2_3.txt
+Methodfile: ../database/sampl4_xfer/564.biorga.text
+Methodfile Name: protocol_xfer.txt
+

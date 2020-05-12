@@ -1,0 +1,15 @@
+RefNo: 566
+Username: geballe
+Email: geballem@gmail.com
+Anonymous: no
+Method: singleConf 3D implSolv
+Personhours: Less than 1 hour
+CPUhours: 10 seconds
+OS: Mac OS X
+Hardware: 2.3 Ghz MBP
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/566.geballe.data
+Datafile Name: prizmaSym_data.csv
+Methodfile: ../database/sampl4_xfer/566.geballe.text
+Methodfile Name: prizmaSym_method.txt
+

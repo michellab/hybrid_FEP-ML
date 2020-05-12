@@ -1,0 +1,15 @@
+RefNo: 580
+Username: parsod
+Email: par.soderhjelm@teokem.lu.se
+Anonymous: no
+Method: explSolv flexConf qm 3D md
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: AMD 6220 @ 3.0 GHz
+Predicted RMSE: 2.0
+Datafile: ../database/sampl4_xfer/580.parsod.data
+Datafile Name: amoebaqm.txt
+Methodfile: ../database/sampl4_xfer/580.parsod.text
+Methodfile Name: amoebaqm-info.txt
+

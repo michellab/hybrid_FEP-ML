@@ -1,0 +1,15 @@
+RefNo: 145
+Username: lhs@sampl4
+Email: l.h.sandberg@dundee.ac.uk
+Anonymous: no
+Method: singleConf qm 3D implSolv
+Personhours: 1 to 2 hours
+CPUhours: 1 hour
+OS: Linux
+Hardware: 2.3GHz Intel Core i7-3610QM
+Predicted RMSE: 0.8
+Datafile: ../database/sampl4_xfer/145.lhs@sampl4.data
+Datafile Name: predictions_ls_final.csv
+Methodfile: ../database/sampl4_xfer/145.lhs@sampl4.text
+Methodfile Name: prediction_methods.txt
+

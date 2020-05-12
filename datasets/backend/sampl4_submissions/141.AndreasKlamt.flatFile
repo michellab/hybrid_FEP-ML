@@ -1,0 +1,15 @@
+RefNo: 141
+Username: AndreasKlamt
+Email: klamt@cosmologic.de
+Anonymous: no
+Method: multConf
+Personhours: Less than 1 hour
+CPUhours: 5 hours
+OS: Linux
+Hardware: Xeon 8 Core, 2.7 GHz
+Predicted RMSE: 0.5
+Datafile: ../database/sampl4_xfer/141.AndreasKlamt.data
+Datafile Name: predictions.txt
+Methodfile: ../database/sampl4_xfer/141.AndreasKlamt.text
+Methodfile Name: Method_description.txt
+

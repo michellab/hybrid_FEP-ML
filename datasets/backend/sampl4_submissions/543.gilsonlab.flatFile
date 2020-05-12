@@ -1,0 +1,15 @@
+RefNo: 543
+Username: gilsonlab
+Email: hmuddana@gmail.com
+Anonymous: no
+Method: explSolv flexConf 3D multConf md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: Intel Xeon 2.4GHz
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/543.gilsonlab.data
+Datafile Name: predictions2.txt
+Methodfile: ../database/sampl4_xfer/543.gilsonlab.text
+Methodfile Name: Protocol2.pdf
+

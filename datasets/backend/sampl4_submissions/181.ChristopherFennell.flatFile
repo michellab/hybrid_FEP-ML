@@ -1,0 +1,15 @@
+RefNo: 181
+Username: ChristopherFennell
+Email: christopher.fennell@okstate.edu
+Anonymous: no
+Method: explSolv flexConf 3D implSolv multConf md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 1.9GHz 12-core Intel Xeon CPU
+Predicted RMSE: 0.1
+Datafile: ../database/sampl4_xfer/181.ChristopherFennell.data
+Datafile Name: lfd_FSEA_mod.txt
+Methodfile: ../database/sampl4_xfer/181.ChristopherFennell.text
+Methodfile Name: lfd_FSEA_mod_method_details.txt
+

@@ -1,0 +1,15 @@
+RefNo: 166
+Username: JoakimJ
+Email: jambeck@me.com
+Anonymous: no
+Method: md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware:  AMD Opteron 2.2 GHz  8 core
+Predicted RMSE: 2.3
+Datafile: ../database/sampl4_xfer/166.JoakimJ.data
+Datafile Name: predictions-mGAFF.txt
+Methodfile: ../database/sampl4_xfer/166.JoakimJ.text
+Methodfile Name: information-mGAFF.txt
+

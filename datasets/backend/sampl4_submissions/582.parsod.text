@@ -1,0 +1,42 @@
+Amoeba
+Free energy simulations using the Amoeba polarizable force field 
+
+System
+
+Consists of the solute molecule and 950-1700 water molecules depending on the size of the solute (box is cubic with size determined by adding a buffer region of 13 Å around the solute, using the gromacs tools)
+
+Preparation
+
+A conformational search was performed with OpenBabel, and each conformation was optimized at the B3LYP/6-31G*/PCM level. The optimized structure with the lowest energy was chosen for parametrization. First, a standard parametriation with the General Amber Force Field (GAFF) was performed and an initial NPT equilibration was run with this force field until the volume and energy was stable (usually 1 ns). This was only used to provide a suitable starting conformation for the Amoeba simulations.
+
+Force field
+
+For deriving Amoeba parameters for the solute, the Poltype procedure [1] and corresponding software was used without modifications. Standard Amoeba waters were used as solvent.
+
+MD setup
+
+Force field: Amoeba 
+Software: Amber 12 (pmemd.amoeba)
+Langevin dynamics, NPT ensemble, 300 K, damping coefficient 2 ps^-1, time step 1 fs, all bonds flexible
+PME electrostatics, non-bonded cutoff 12 Å, PME grid size automatic
+cutoff for induced dipole coupling 7 Å, induced dipole convergence threshold 0.0001 a.u.
+Long-range van der Waals correction applied
+System was equilibrated for 1 ns before starting free-energy simulations.
+
+Free energy simulations
+
+Three separate sets of simulations were performed.
+*Ele: starting from the fully interacting system and gradually turning off the multipoles of the solute.
+*Vdw: starting from the system with no multipoles on the solute and gradually turning off the van der Waals interactions  between the solute and solvent (but not intramolecular interactions in the solute). Softcore vdw interactions were used.
+*Elevac: starting from the solute in vacuum and gradually turning off its multipoles
+
+Each of these sets consisted of 12 simulations with lambda values evenly spaced between 0.01 and 0.99. All simulations started from the same equilibrated strucutre. The simulation time of each window was set to 1 ns, out of which the initial 0.2 ns was discarded. Snapshots were collected every 1 ps, and the 800 snapshots of each simulation were postprocessed to construct a matrix of potential energy differences suitable for multistate Bennett acceptance ratio (MBAR) [2], as implemented in PYMBAR. The statistical error in the obtained free energy was normally around 0.05 kcal/mol. For a few of the Elevac calculations, we had problems with transitions between multiple artificial conformations which made the free-energy evaluation very difficult. For these molecules, we performed the Elevac calculations using a positional restraint (100  kcal/mol/A^2) on all solute atoms; this procedure clearly misses an important effect but it's better than reporting values that are not statistically converged. For some molecules (in particular number 1), we saw signs of insuffient sampling of conformations even in the solvated simulations, but we did not have sufficient time to solve this problem.
+
+
+The free energy was finally computed as G_tot = G_Ele - G_Elevac + G_Vdw
+
+with each term having a sign as if we were turning on the interactions.
+
+
+[1] Wu, J. C., Chattree, G., Ren, P.; Theoretical Chemistry Accounts, 2012, 131:1138
+[2] Shirts M. R, Chodera J. D.; J. Chem. Phys. 2008, 129:124105

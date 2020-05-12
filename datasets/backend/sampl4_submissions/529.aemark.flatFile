@@ -1,0 +1,15 @@
+RefNo: 529
+Username: aemark
+Email: a.e.mark@uq.edu.au
+Anonymous: no
+Method: explSolv flexConf 3D multConf md
+Personhours: 1 to 2 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: mixture 8 core intel
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_xfer/529.aemark.data
+Datafile Name: predictions_MDgroup.txt
+Methodfile: ../database/sampl4_xfer/529.aemark.text
+Methodfile Name: Methods_MD_group.rtf
+

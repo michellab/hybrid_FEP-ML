@@ -1,0 +1,15 @@
+RefNo: 137
+Username: SGenheden
+Email: s.genheden@soton.ac.uk
+Anonymous: no
+Method: explSolv flexConf 3D multConf mc
+Personhours: 1 to 2 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 2.6 GHz 16-core nodes
+Predicted RMSE: 2.0
+Datafile: ../database/sampl4_xfer/137.SGenheden.data
+Datafile Name: predictions_mm.txt
+Methodfile: ../database/sampl4_xfer/137.SGenheden.text
+Methodfile Name: method_descr_mm
+
