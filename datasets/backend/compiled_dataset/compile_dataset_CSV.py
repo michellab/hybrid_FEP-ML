@@ -87,17 +87,21 @@ def create_absolute_train_test(features, labels, set_type):
 def split_train_test(dataframe):
 
     # List comprehension for all non-SAMPL4_Guthrie entries.
+    # exclude the discrepant mols:
+    excluded = ["mobley_6309289", "mobley_3395921", "mobley_6739648", "mobley_2607611", "mobley_637522", "mobley_172879"]
     train_ids = [freesolv_df.iloc[i][0]
                  for i in range(len(freesolv_df))
-                 if freesolv_df.loc[i, exp_ref_col] != SAMPL4_Guthrie_ref]
+                 if freesolv_df.loc[i, exp_ref_col] != SAMPL4_Guthrie_ref ]
+    train_ids = [train_id for train_id in train_ids if train_id not in excluded]
 
     # List comprehension for all SAMPL4_Guthrie entries.
     test_ids = [freesolv_df.iloc[i][0]
                 for i in range(len(freesolv_df))
                 if freesolv_df.loc[i, exp_ref_col] == SAMPL4_Guthrie_ref]
-
-    train_df = dataframe.drop(test_ids)
-    test_df = dataframe.drop(train_ids, errors="ignore")
+    test_ids = test_ids + excluded
+    train_df = dataframe.drop(test_ids, errors="ignore")
+    test_df = dataframe.drop(train_ids)
+    
     return train_df, test_df
 
 

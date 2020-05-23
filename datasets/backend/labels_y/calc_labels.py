@@ -38,11 +38,6 @@ def get_labels():
         orient='index',
         columns=['Experimental dGhydr (kcal/mol)', 'uncertainty (kcal/mol)']
     )
-    # need to drop some mols to exclude:
-    excluded = ["mobley_6309289", "mobley_3395921", "mobley_6739648", "mobley_2607611", "mobley_637522", "mobley_172879"]
-    for mol in excluded:
-        offset.drop(mol, inplace=True)
-        dGhydr.drop(mol, inplace=True)
 
     # Save to CSV.
     print(offset)
